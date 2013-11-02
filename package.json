@@ -1,6 +1,6 @@
 {
   "name": "vec2-animiate",
-  "description": "",
+  "description": "animate a vec2 vector",
   "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/vec2-animiate",
   "repository": {
