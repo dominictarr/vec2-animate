@@ -1,4 +1,4 @@
-# vec2-animiate
+# vec2-animate
 
 Animate a vector.
 

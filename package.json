@@ -1,11 +1,11 @@
 {
-  "name": "vec2-animiate",
+  "name": "vec2-animate",
   "description": "animate a vec2 vector",
   "version": "1.0.1",
-  "homepage": "https://github.com/dominictarr/vec2-animiate",
+  "homepage": "https://github.com/dominictarr/vec2-animate",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dominictarr/vec2-animiate.git"
+    "url": "git://github.com/dominictarr/vec2-animate.git"
   },
   "dependencies": {
   },
