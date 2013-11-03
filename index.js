@@ -5,6 +5,7 @@ module.exports = function (vec, speed, fr) {
   fr = (fr || 60) / 1000
   var _vec = new Vec2().set(vec.x, vec.y)
   console.log(_vec, vec)
+  var diff = new Vec2()
   var _t = Date.now(), t = _t
   _vec.change(function () {
     if(_vec.animate) return //already animating
@@ -15,7 +16,8 @@ module.exports = function (vec, speed, fr) {
       t = Date.now()
       var ts = (t - _t)/1000
       if(ts === 0) return
-      var diff = _vec.subtract(vec, true)
+      diff.set(_vec.x, _vec.y)
+      diff.subtract(vec)
       
       var length = diff.length()
       if(length < speed*ts) {
